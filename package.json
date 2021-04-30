@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-vite-composition-api-starter-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:acibilous/nuxt-vite-composition-api-starter-kit.git",
+  "author": "Ihor Bilous <i.bilous@astoundcommerce.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.23.4",
+    "nuxt": "^2.15.4"
+  },
+  "devDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.8",
+    "nuxt-vite": "^0.0.37"
+  }
+}
