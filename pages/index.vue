@@ -8,7 +8,7 @@
 import { ref, defineComponent } from '@nuxtjs/composition-api'
 export default defineComponent({
     setup() {
-        const username = 'Composition Api User'
+        const username = ref('Composition Api User')
 
         return {
             username
